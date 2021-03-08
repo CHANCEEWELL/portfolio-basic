@@ -1,13 +1,18 @@
-# portfolio-basic
-no react or javascript - responsive html / css 
+# Portfolio
 
-Technologies used: 
 
--HTML
--CSS
--GITHUB
--VISUAL STUDIO CODE
--GITHUB PAGES
--COMMAND LINE
+## Technologies used: 
 
-DEPLOYED LINK: 
+- HTML
+- CSS
+- GITHUB
+- VISUAL STUDIO CODE
+- GITHUB PAGES
+- COMMAND LINE
+
+### DEPLOYED LINK:
+
+- https://chanceewell.github.io/portfolio-basic/
+
+#### Screenshots
+
