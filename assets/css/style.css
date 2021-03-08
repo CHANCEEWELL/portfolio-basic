@@ -1,0 +1,303 @@
+/***************************************
+	  Shared CSS across Entire Site
+****************************************/
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+a:visited {
+	color: #777777;
+}
+
+a:hover {
+	color: #4c4b4b;
+}
+
+body {
+	position: relative;
+	max-width: 960px;
+	height: 800px;
+	background-image: url(".../background-image/images/IMG_2823.png");
+	margin: auto;
+}
+
+#header {
+	background: #fff;
+	height: 70px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+	border-bottom: 2px solid #cccccc;
+}
+
+#brand {
+	height: 70px;
+}
+
+#brand h1 {
+	width: 210px;
+	padding: 17px;
+	margin: 0px 0px 0px 40px;
+	font-size: 2.2em;
+	background: #4aaaa5;
+	text-align: center;
+	color: #fff;
+}
+
+#nav {
+	height: 70px;
+	padding-right: 50px;
+	text-align: right;
+	line-height: 70px;
+}
+
+#nav span {
+	padding: 5px;
+	font-size: 1.05em;
+}
+
+#connect {
+	background: #fff;
+	color: #4aaaa5;
+	text-align: center;
+	font-size: 1.4em;
+	margin: 35px 35px 15px 15px;
+	padding: 15px;
+}
+
+#connect h3 {
+	font-weight: bold;
+	margin-bottom: 14px;
+}
+
+#connect img {
+	margin:	5px 2px 0px 2px;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	background: #666666;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	border-top: 2px solid #4aaaa5;
+
+}
+
+/***************************************
+		       INDEX.HTML
+****************************************/
+
+#about {
+	background: #fff;
+	height: 370px;
+	margin: 35px 15px 15px 35px;
+	padding: 15px;
+	overflow: auto;
+}
+
+#about h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0px 0px 5px 15px;
+	color: #4aaaa5;
+}
+
+#about hr {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#about img {
+	float: left;
+	margin: 15px 15px 0px 15px;
+	
+}
+
+#about p {
+	line-height: 150%;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 10px;
+	text-align: justify; 
+
+}
+
+/***************************************
+		      PORTFOLIO.HTML
+****************************************/
+
+#portfolio {
+	background: #fff;
+	height: 590px;
+	margin: 35px 15px 15px 35px;
+	padding: 15px;
+	overflow: auto;
+
+}
+
+#portfolio h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0px 0px 5px 15px;
+	color: #4aaaa5;
+}
+
+#portfolio hr {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#portfolio li {
+	width: 45%;
+	height: 150px;
+	margin: 10px 0px 10px 3.2%;
+	float: left;
+}
+
+#portfolio img {
+	width: 100%;
+	height: 100%;
+}
+
+.portLabel {
+	color: #fff;
+	background-color: #4aaaa5;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+	bottom: 53px;
+
+}
+
+/***************************************
+		      CONTACT.HTML
+****************************************/
+
+#contact {
+	background: #fff;
+	height: 450px;
+	margin: 35px 15px 15px 35px;
+	padding: 15px;
+	overflow: auto;
+}
+
+#contact h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0px 0px 5px 15px;
+	color: #4aaaa5;
+}
+
+#contact hr {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#contact form {
+	margin-left: 15px;
+	color: #777777;
+}
+
+#contact form input {
+	color: #777777;
+	width: 97%;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+
+#contact span {
+	font-size: 1.1em;
+}
+
+#name {
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+#name[type=text] {
+	padding-left: 5px;
+	font-size: 13px; 
+	opacity: 0.7;
+}
+
+#email[type=text] {
+	padding-left: 5px; 
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+#message[type=text] {
+	line-height: 0px;
+}
+
+#email {
+	height: 30px;
+	margin-bottom: 5px;	
+}
+
+#message {
+	height: 185px;
+	margin-bottom: 10px;
+	
+}
+
+#submit[type=submit] {
+	color: #fff;
+	width: 70px;
+ 	height: 30px;
+ 	background: #4aaaa5;
+ 	border: none;
+ 	margin-top: 5px;
+ 	border-radius: 2px;
+ 	font-size: 13px;
+}
+
+#submit:hover {
+	cursor: pointer;
+	background-color: #3a8783;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
