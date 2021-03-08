@@ -1,0 +1,159 @@
+/***************************************
+		      Responsive
+****************************************/
+@media only screen and (max-width: 980px) {
+
+	body {
+		width: 85%;
+		height: 1000px;
+		margin: auto;
+	}
+
+	#about {
+		height: auto;
+	}
+
+	#about img {
+		width: 90%;
+		height: 100%;
+		margin: 15px 5% 20px 5%;
+		
+	}
+
+	#about p {
+		margin-left: 20px;
+		margin-right: 20px;
+
+	}
+
+	#connect img {
+	    margin: 5px 0px 0px 0px;
+	    height: 45px;
+	}
+
+	#portfolio {
+		height: 750px;
+    }
+
+    #portfolio li {
+		width: 90%;
+		height: 250px;
+		margin: 15px 5% 20px 5%;
+	}
+
+	#portfolio img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	[class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+    	height: 1150px;
+    }
+
+    #nav {
+    	padding-right: 25px;
+    	position: absolute;
+    }
+
+    #about {
+    	margin: 35px;
+    }
+
+    #about img {
+    	width: 45%;
+		margin: 15px 15px 0px 15px;
+    }
+
+    #portfolio {
+    	height: 700px;
+    	margin: 35px;
+    }
+
+    #portfolio li {
+		width: 45%;
+		height: 180px;
+		margin: 10px 0px 10px 3.2%;
+		float: left;
+	}
+
+    #connect {
+	    margin: 35px;
+	    padding: 20px 35px 20px 35px;
+	    text-align: left;
+	}
+
+	#connect img {
+		height: 51px;
+	}
+
+	#contact {
+		margin: 35px;
+	}
+}
+
+
+@media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+    body {
+    	height: 1200px;
+    }
+
+    #brand h1 {
+    	width: 100%;
+    	margin: 0;
+	}
+
+	#nav {
+		text-align: center;
+		position: relative;
+		background: #fff;
+		margin-bottom: 20px;
+		padding: 0px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#about {
+		margin: 25px;
+		height: auto;
+	}
+
+	#about img {
+		width: 90%;
+		margin: 15px 5% 15px 5%;
+	}
+
+	#connect {
+		margin: 25px;
+		text-align: center;
+	}
+
+	[class*="col-"] {
+        width: 100%;
+    }
+
+    #portfolio {
+    	margin: 25px;
+    }
+
+    #portfolio li {
+		width: 90%;
+		height: 200px;
+		margin: 15px 5% 20px 5%;
+	}
+
+    #contact {
+    	margin: 25px;
+    }
+}
+
+
+
