@@ -254,7 +254,7 @@ body {
 #email[type=text] {
 	padding-left: 5px; 
 	font-size: 13px;
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 #message[type=text] {
