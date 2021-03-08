@@ -1,5 +1,5 @@
-# Portfolio
-
+## Portfolio
+![]("https://raw.githubusercontent.com/CHANCEEWELL/portfolio-basic/master/Screen%20Shot%202021-03-08%20at%2012.59.51%20AM.png")
 
 ## Technologies used: 
 
@@ -10,9 +10,11 @@
 - GITHUB PAGES
 - COMMAND LINE
 
-### DEPLOYED LINK:
+## DEPLOYED LINK:
 
 - https://chanceewell.github.io/portfolio-basic/
 
-#### Screenshots
 
+## Contact
+
+- Chance.shane.ewell@gmail.com
