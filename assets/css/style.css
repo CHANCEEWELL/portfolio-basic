@@ -110,7 +110,7 @@ body {
 	text-align: center;
 	line-height: 70px;
 	color: #fff;
-	border-top: 2px solid #4aaaa5;
+	border-top: 2px solid #5b50d3;
 
 }
 
@@ -170,7 +170,7 @@ body {
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 0px 0px 5px 15px;
-	color: #4aaaa5;
+	color: #000000;
 }
 
 #portfolio hr {
@@ -192,7 +192,7 @@ body {
 
 .portLabel {
 	color: #fff;
-	background-color: #4aaaa5;
+	background-color: #5b50d3;
 	line-height: 40px;
 	text-align: center;
 	position: relative;
@@ -216,7 +216,7 @@ body {
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 0px 0px 5px 15px;
-	color: #4aaaa5;
+	color: #5b50d3;
 }
 
 #contact hr {
@@ -276,7 +276,7 @@ body {
 	color: #fff;
 	width: 70px;
  	height: 30px;
- 	background: #4aaaa5;
+ 	background: #5b50d3;
  	border: none;
  	margin-top: 5px;
  	border-radius: 2px;
@@ -285,7 +285,7 @@ body {
 
 #submit:hover {
 	cursor: pointer;
-	background-color: #3a8783;
+	background-color: #5b50d3;
 }
 
 
